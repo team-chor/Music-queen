@@ -1,10 +1,10 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums import ParseMode
 
-from DeadlineTech import app
+from RiteshMusic import app
 import config
 
 
@@ -31,11 +31,11 @@ You're free to remove the bot or revoke access anytime.
 **Updates to this Policy:**
 This policy may be updated. We recommend reviewing it periodically.
 
-📎 **Full Privacy Document**: [View Here](https://telegra.ph/Privacy-Policy-Bot-Hub-12-18-2)
+📎 **Full Privacy Document**: [View Here](http://yourshivang.netlify.app)
 
 ---
 
-🤖 Powered with ❤️ by **Team DeadlineTech** – committed to open, safe, and secure bot experiences.
+🤖 Powered with ❤️ by **RiteshMusic** – committed to open, safe, and secure bot experiences.
 """
 
 # 📍 Privacy Command Handler
