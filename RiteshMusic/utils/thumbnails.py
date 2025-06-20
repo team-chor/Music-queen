@@ -94,8 +94,8 @@ async def get_thumb(videoid: str):
         background.paste(logo, (100, 150))
 
         draw = ImageDraw.Draw(background)
-        font_info = ImageFont.truetype("DeadlineTech/assets/font2.ttf", 28)
-        font_time = ImageFont.truetype("DeadlineTech/assets/font2.ttf", 26)
+        font_info = ImageFont.truetype("RiteshMusic/assets/font2.ttf", 28)
+        font_time = ImageFont.truetype("RiteshMusic/assets/font2.ttf", 26)
         font_path = "DeadlineTech/assets/font3.ttf"
 
         title_max_width = 540
@@ -120,7 +120,7 @@ async def get_thumb(videoid: str):
         picons = icons.resize((580, 62))
         background.paste(picons, (565, 430), picons)
 
-        watermark_font = ImageFont.truetype("DeadlineTech/assets/font2.ttf", 24)
+        watermark_font = ImageFont.truetype("RiteshMusic/assets/font2.ttf", 24)
         watermark_text = "Team DeadlineTech"
         text_size = draw.textsize(watermark_text, font=watermark_font)
         x = background.width - text_size[0] - 25
