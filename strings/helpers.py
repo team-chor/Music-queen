@@ -40,7 +40,7 @@ HELP_3 = """
 📌 <u>Example:</u>  
 <code>/clone 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11</code>
 
-🎧 <b>Official Demo Bot:</b> <a href="https://t.me/TuhiMusicBot">@TuhiMusicBot</a>
+🎧 <b>Official Demo Bot:</b> <a href="https://t.me/shivang_xd</a>
 """
 
 HELP_4 = """
