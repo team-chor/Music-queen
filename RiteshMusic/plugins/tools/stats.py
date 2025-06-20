@@ -1,3 +1,4 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import platform
 from sys import version as pyver
 
@@ -9,13 +10,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from DeadlineTech import app
-from DeadlineTech.core.userbot import assistants
-from DeadlineTech.misc import SUDOERS, mongodb
-from DeadlineTech.plugins import ALL_MODULES
-from DeadlineTech.utils.database import get_served_chats, get_served_users, get_sudoers
-from DeadlineTech.utils.decorators.language import language, languageCB
-from DeadlineTech.utils.inline.stats import back_stats_buttons, stats_buttons
+from RiteshMusic import app
+from RiteshMusic.core.userbot import assistants
+from RiteshMusic.misc import SUDOERS, mongodb
+from RiteshMusic.plugins import ALL_MODULES
+from RiteshMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from RiteshMusic.utils.decorators.language import language, languageCB
+from RiteshMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
