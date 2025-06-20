@@ -4,9 +4,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
 )
