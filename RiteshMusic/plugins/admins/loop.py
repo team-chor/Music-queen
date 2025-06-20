@@ -1,12 +1,12 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.utils.database import get_loop, set_loop
-from DeadlineTech.utils.decorators import AdminRightsCheck
-from DeadlineTech.utils.inline import close_markup
+from RiteshMusic import app
+from RiteshMusic.utils.database import get_loop, set_loop
+from RiteshMusic.utils.decorators import AdminRightsCheck
+from RiteshMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
