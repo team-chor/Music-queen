@@ -1,8 +1,4 @@
-# ==========================================================
-# 🔒 All Rights Reserved © Team DeadlineTech
-# 📁 This file is part of the DeadlineTech Project.
-# ==========================================================
-
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 import asyncio
 import logging
@@ -19,9 +15,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DeadlineTech import YouTube, app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import (
+from RiteshMusic import YouTube, app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
