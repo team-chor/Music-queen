@@ -74,26 +74,26 @@ async def init():
     
     for all_module in ALL_MODULES:
         importlib.import_module("RiteshMusic.plugins" + all_module)
-    LOGGER("DeadlineTech.plugins").info("Successfully Imported Modules...")
+    LOGGER("RiteshMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Anony.start()
     try:
         await Anony.stream_call("https://files.catbox.moe/g93qe8.jpg")
     except NoActiveGroupCall:
-        LOGGER("DeadlineTech").error(
+        LOGGER("RiteshMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Anony.decorators()
-    LOGGER("DeadlineTech").info(
+    LOGGER("RiteshMusic").info(
         "RiteshMusic Music Bot started successfully"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DeadlineTech").info("Stopping RiteshMusic Music Bot...")
+    LOGGER("RiteshMusic").info("Stopping RiteshMusic Music Bot...")
 
 
 if __name__ == "__main__":
