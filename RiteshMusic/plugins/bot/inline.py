@@ -1,4 +1,4 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram.types import (
     InlineKeyboardButton,
@@ -7,8 +7,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from DeadlineTech import app
-from DeadlineTech.utils.inlinequery import answer
+from RiteshMusic import app
+from RiteshMusic.utils.inlinequery import answer
 from config import BANNED_USERS
 
 
