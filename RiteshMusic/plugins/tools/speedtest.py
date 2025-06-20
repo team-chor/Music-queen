@@ -1,10 +1,11 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.decorators.language import language
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.decorators.language import language
 
 
 def perform_speedtest():
