@@ -1,4 +1,4 @@
-# Powered By Team riteshcoder
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from RiteshMusic import Anony
 from RiteshMusic.core.dir import dirr
 from RiteshMusic.core.git import git
