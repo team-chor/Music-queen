@@ -1,11 +1,11 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 
-from DeadlineTech import YouTube, app
-from DeadlineTech.utils.channelplay import get_channeplayCB
-from DeadlineTech.utils.decorators.language import languageCB
-from DeadlineTech.utils.stream.stream import stream
+from RiteshMusic import YouTube, app
+from RiteshMusic.utils.channelplay import get_channeplayCB
+from RiteshMusic.utils.decorators.language import languageCB
+from RiteshMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
