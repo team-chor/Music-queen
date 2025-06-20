@@ -1,10 +1,11 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import random
 import asyncio
 from datetime import date
 from typing import Dict, List, Union
 
-from DeadlineTech import userbot
-from DeadlineTech.core.mongo import mongodb
+from RiteshMusic import userbot
+from RiteshMusic.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
