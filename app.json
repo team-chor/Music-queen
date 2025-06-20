@@ -1,7 +1,7 @@
 {
-    "name": " DeadlineTech Music",
+    "name": " RiteshMusic",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://files.catbox.moe/lxn8yz.jpg",
+    "logo": "https://files.catbox.moe/g93qe8.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "25742938",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "b35b715fe8dc0a58e8048988286fc5b6",
         "required": true
       },
       "BOT_TOKEN": {
@@ -38,7 +38,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
+        "description": "A Pyrogram v2 String Session from on Telegram.",
         "value": "",
         "required": true
       },
