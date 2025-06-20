@@ -1,4 +1,4 @@
-# Powered By Team RiteshMusic
+# Powered By Team DeadlineTech
 from DeadlineTech.core.bot import Anony
 from DeadlineTech.core.dir import dirr
 from DeadlineTech.core.git import git
