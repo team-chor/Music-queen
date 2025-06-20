@@ -1,8 +1,9 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from DeadlineTech.utils.formatters import time_to_seconds
+from RiteshMusic.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
