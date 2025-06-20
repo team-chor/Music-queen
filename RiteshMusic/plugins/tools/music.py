@@ -1,9 +1,4 @@
-# ==========================================================
-# 🔒 All Rights Reserved © Team DeadlineTech
-# 📁 This file is part of the DeadlineTech Project.
-# ==========================================================
-
-
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import os
 import re
 import asyncio
@@ -15,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram.enums import ChatAction
 from youtubesearchpython.__future__ import VideosSearch
 from config import API_KEY, API_BASE_URL
-from DeadlineTech import app
+from RiteshMusic import app
 
 # 📝 Logging Setup
 os.makedirs("logs", exist_ok=True)
@@ -142,12 +137,12 @@ async def send_audio(client: Client, message: Message, video_id: str):
     await message.reply_audio(
         audio=file_path,
         title=title,
-        performer="DeadlineTech",
+        performer="RiteshMusic",
         duration=duration,
-        caption=f"📻 <b><a href=\"{url}\">{title}</a></b>\n🕒 <b>Duration:</b> {duration_str}\n🔧 <b>Powered by:</b> <a href=\"https://t.me/DeadlineTechTeam\">DeadlineTech</a>",
+        caption=f"📻 <b><a href=\"{url}\">{title}</a></b>\n🕒 <b>Duration:</b> {duration_str}\n🔧 <b>Powered by:</b> <a href=\"https://t.me/FRIENDSZONEOPX\">RiteshMusic</a>",
         thumb=thumb_path if thumb_path else None,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("🎧 More Music", url="https://t.me/DeadlineTechMusic")],
-            [InlineKeyboardButton("💻 Source", url="https://github.com/DeadlineTech/music")]
+            [InlineKeyboardButton("🎧 More Music", url="https://t.me/FRIENDSZONEOPX")],
+            [InlineKeyboardButton("💻 Source", url="https://github.com/riteshxcoder/RiteshMusic")]
         ])
     )
