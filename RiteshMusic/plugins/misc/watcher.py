@@ -1,10 +1,10 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.core.call import Anony
+from RiteshMusic import app
+from RiteshMusic.core.call import Anony
 
 welcome = 20
 close = 30
