@@ -1,9 +1,7 @@
-# Powered by DeadlineTech
-
-
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import logging
 from pyrogram import Client, filters
-from DeadlineTech import app
+from RiteshMusic import app
 from pyrogram.types import Message, ChatMemberUpdated
 from pyrogram.enums import ChatMemberStatus
 
