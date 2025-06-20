@@ -1,3 +1,4 @@
+# ⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from RiteshMusic import app
 from RiteshMusic.utils.database import get_cmode
 
