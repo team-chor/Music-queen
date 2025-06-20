@@ -1,4 +1,4 @@
-# Powered By Team RiteshMusic
+# Powered By Team riteshcoder
 
 import socket
 import time
