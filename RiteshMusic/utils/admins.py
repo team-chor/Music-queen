@@ -1,11 +1,12 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import logging
 from datetime import datetime
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS, db
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS, db
+from RiteshMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
