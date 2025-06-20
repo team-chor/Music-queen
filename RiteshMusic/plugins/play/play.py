@@ -1,4 +1,4 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 import random
 import string
@@ -8,22 +8,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DeadlineTech import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from DeadlineTech.core.call import Anony
-from DeadlineTech.utils import seconds_to_min, time_to_seconds
-from DeadlineTech.utils.channelplay import get_channeplayCB
-from DeadlineTech.utils.decorators.language import languageCB
-from DeadlineTech.utils.decorators.play import PlayWrapper
-from DeadlineTech.utils.formatters import formats
-from DeadlineTech.utils.inline import (
+from RiteshMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from RiteshMusic.core.call import Anony
+from RiteshMusic.utils import seconds_to_min, time_to_seconds
+from RiteshMusic.utils.channelplay import get_channeplayCB
+from RiteshMusic.utils.decorators.language import languageCB
+from RiteshMusic.utils.decorators.play import PlayWrapper
+from RiteshMusic.utils.formatters import formats
+from RiteshMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from DeadlineTech.utils.logger import play_logs
-from DeadlineTech.utils.stream.stream import stream
+from RiteshMusic.utils.logger import play_logs
+from RiteshMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
