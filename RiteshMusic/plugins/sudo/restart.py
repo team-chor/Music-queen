@@ -1,3 +1,4 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 import os
 import shutil
@@ -10,15 +11,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from DeadlineTech import app
-from DeadlineTech.misc import HAPP, SUDOERS, XCB
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.misc import HAPP, SUDOERS, XCB
+from RiteshMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from DeadlineTech.utils.decorators.language import language
-from DeadlineTech.utils.pastebin import AnonyBin
+from RiteshMusic.utils.decorators.language import language
+from RiteshMusic.utils.pastebin import AnonyBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
