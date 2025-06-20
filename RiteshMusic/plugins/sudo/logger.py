@@ -1,9 +1,10 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from pyrogram import filters
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import add_off, add_on
-from DeadlineTech.utils.decorators.language import language
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import add_off, add_on
+from RiteshMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
