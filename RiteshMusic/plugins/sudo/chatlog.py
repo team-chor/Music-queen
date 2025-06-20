@@ -1,7 +1,8 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-from DeadlineTech import app
+from RiteshMusic import app
 from config import LOGGER_ID as JOINLOGS
 
 # Setup logging
