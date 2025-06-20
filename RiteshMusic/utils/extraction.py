@@ -1,7 +1,8 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message, User
 
-from DeadlineTech import app
+from RiteshMusic import app
 
 
 async def extract_user(m: Message) -> User:
