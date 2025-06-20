@@ -12,7 +12,7 @@ from ..logging import LOGGER
 
 class Anony(Client):
     def __init__(self):
-        LOGGER(__name__).info("🛠️ Initializing DeadlineTech Bot...")
+        LOGGER(__name__).info("🛠️ Initializing RiteshMusic Bot...")
         super().__init__(
             name="DeadlineTech",
             api_id=config.API_ID,
@@ -69,5 +69,5 @@ class Anony(Client):
         LOGGER(__name__).info(f"🎶 Bot is online and ready as {self.name} (@{self.username})")
 
     async def stop(self):
-        LOGGER(__name__).info("🛑 Stopping DeadlineTech Bot...")
+        LOGGER(__name__).info("🛑 Stopping RiteshMusic Bot...")
         await super().stop()
