@@ -1,28 +1,4 @@
-
-
-# ==========================================================
-# 🎧 Public Open-Source VC Player Music Bot (Cookies Based)
-# 🛠️ Maintained by Team DeadlineTech | Lead Developer: @Its_damiann
-# 🔓 Licensed for Public Use — All Rights Reserved © Team DeadlineTech
-#
-# This file is part of a publicly available and open-source Telegram music bot
-# developed by Team DeadlineTech. It offers high-quality streaming in Telegram voice
-# chats using YouTube as a source, supported by session-based assistant accounts and
-# YouTube cookie integration for improved access and performance.
-#
-# 💡 This source code is released for educational and community purposes. You're free
-# to study, modify, and deploy it under fair and respectful usage. However, any misuse,
-# removal of credits, or false ownership claims will be considered a violation of our
-# community standards and may lead to denial of support or blacklisting.
-#
-# 🔗 Looking for powerful performance with stable APIs? Get access to the official
-# premium API service: https://DeadlineTech.site
-#
-# ❤️ Openly built for the community, but proudly protected by the passion of its creators.
-# ==========================================================
-
-
-
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from pyrogram import Client
 import config
 from ..logging import LOGGER
@@ -34,35 +10,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="DeadlineXAss1",
+            name="RiteshMusicAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="DeadlineXAss2",
+            name="RiteshMusicAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="DeadlineXAss3",
+            name="RiteshMusicAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="DeadlineXAss4",
+            name="RiteshMusicAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="DeadlineXAss5",
+            name="RiteshMusicAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -75,8 +51,8 @@ class Userbot(Client):
         async def setup_assistant(client, number):
             try:
                 await client.start()
-                await client.join_chat("DeadlineTechTeam")
-                await client.join_chat("DeadlineTechSupport")
+                await client.join_chat("riteshcoder")
+                await client.join_chat("FRIENDSZONEOPX")
             except Exception:
                 pass
 
