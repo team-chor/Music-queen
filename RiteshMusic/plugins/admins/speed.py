@@ -1,15 +1,15 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.core.call import Anony
-from DeadlineTech.misc import SUDOERS, db
-from DeadlineTech.utils import AdminRightsCheck
-from DeadlineTech.utils.database import is_active_chat, is_nonadmin_chat
-from DeadlineTech.utils.decorators.language import languageCB
-from DeadlineTech.utils.inline import close_markup, speed_markup
+from RiteshMusic import app
+from RiteshMusic.core.call import Anony
+from RiteshMusic.misc import SUDOERS, db
+from RiteshMusic.utils import AdminRightsCheck
+from RiteshMusic.utils.database import is_active_chat, is_nonadmin_chat
+from RiteshMusic.utils.decorators.language import languageCB
+from RiteshMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
