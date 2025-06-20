@@ -1,3 +1,5 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
+
 HELP_1 = """<b><u>𝖠𝖣𝖬𝖨𝖭 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u></b> 🎧
 
 💡 𝖳𝗂𝗉: To control music in a channel, just add <b>𝖼</b> at the beginning of the command.  
