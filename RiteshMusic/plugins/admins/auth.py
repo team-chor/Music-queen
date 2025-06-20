@@ -1,11 +1,11 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.utils import extract_user, int_to_alpha
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.utils import extract_user, int_to_alpha
+from RiteshMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
