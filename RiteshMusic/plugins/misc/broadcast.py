@@ -1,4 +1,4 @@
-# Powered by Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 import time
 import logging
@@ -9,17 +9,17 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait, RPCError, MessageNotModified
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from DeadlineTech.utils.decorators.language import language
-from DeadlineTech.utils.formatters import alpha_to_int
+from RiteshMusic.utils.decorators.language import language
+from RiteshMusic.utils.formatters import alpha_to_int
 from config import adminlist
 
 # Setup logger
