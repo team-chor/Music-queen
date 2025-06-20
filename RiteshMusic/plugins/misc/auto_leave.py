@@ -1,3 +1,4 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 import logging
 from datetime import datetime, timedelta
@@ -6,8 +7,8 @@ import pytz
 from pyrogram.enums import ChatType
 
 import config
-from DeadlineTech import app
-from DeadlineTech.utils.database import get_client, is_active_chat
+from RiteshMusic import app
+from RiteshMusic.utils.database import get_client, is_active_chat
 
 # Set up logging
 logging.basicConfig(
