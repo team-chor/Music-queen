@@ -1,4 +1,4 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.enums import ChatType
@@ -10,8 +10,8 @@ from pyrogram.types import (
     Message,
 )
 
-from DeadlineTech import app
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -27,15 +27,15 @@ from DeadlineTech.utils.database import (
     skip_off,
     skip_on,
 )
-from DeadlineTech.utils.decorators.admins import ActualAdminCB
-from DeadlineTech.utils.decorators.language import language, languageCB
-from DeadlineTech.utils.inline.settings import (
+from RiteshMusic.utils.decorators.admins import ActualAdminCB
+from RiteshMusic.utils.decorators.language import language, languageCB
+from RiteshMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from DeadlineTech.utils.inline.start import private_panel
+from RiteshMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
