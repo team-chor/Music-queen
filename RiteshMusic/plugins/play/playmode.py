@@ -3,10 +3,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from DeadlineTech import app
-from DeadlineTech.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from DeadlineTech.utils.decorators import language
-from DeadlineTech.utils.inline.settings import playmode_users_markup
+from RiteshMusic import app
+from RiteshMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from RiteshMusic.utils.decorators import language
+from RiteshMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
