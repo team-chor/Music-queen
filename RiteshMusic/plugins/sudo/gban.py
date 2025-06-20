@@ -1,13 +1,14 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils import get_readable_time
-from DeadlineTech.utils.database import (
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils import get_readable_time
+from RiteshMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +16,8 @@ from DeadlineTech.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from DeadlineTech.utils.decorators.language import language
-from DeadlineTech.utils.extraction import extract_user
+from RiteshMusic.utils.decorators.language import language
+from RiteshMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
