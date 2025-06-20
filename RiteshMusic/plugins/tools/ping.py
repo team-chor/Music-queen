@@ -1,13 +1,14 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from datetime import datetime
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.core.call import Anony
-from DeadlineTech.utils import bot_sys_stats
-from DeadlineTech.utils.decorators.language import language
-from DeadlineTech.utils.inline import supp_markup
+from RiteshMusic import app
+from RiteshMusic.core.call import Anony
+from RiteshMusic.utils import bot_sys_stats
+from RiteshMusic.utils.decorators.language import language
+from RiteshMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
