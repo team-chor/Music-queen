@@ -1,7 +1,8 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from pyrogram.enums import ParseMode
 
-from DeadlineTech import app
-from DeadlineTech.utils.database import is_on_off
+from RiteshMusic import app
+from RiteshMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 
