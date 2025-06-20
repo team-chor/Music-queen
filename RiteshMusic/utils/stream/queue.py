@@ -1,8 +1,9 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 from typing import Union
 
-from DeadlineTech.misc import db
-from DeadlineTech.utils.formatters import check_duration, seconds_to_min
+from RiteshMusic.misc import db
+from RiteshMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
