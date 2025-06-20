@@ -1,12 +1,12 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.utils.database import set_cmode
-from DeadlineTech.utils.decorators.admins import AdminActual
+from RiteshMusic import app
+from RiteshMusic.utils.database import set_cmode
+from RiteshMusic.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
