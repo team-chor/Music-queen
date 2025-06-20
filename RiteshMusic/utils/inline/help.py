@@ -1,8 +1,9 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DeadlineTech import app
+from RiteshMusic import app
 
 
 def help_pannel(_, START: Union[bool, int] = None):
