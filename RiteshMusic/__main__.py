@@ -1,4 +1,4 @@
-# Powered By Team DeadlineTech
+# Powered By Team riteshcoder
 
 import asyncio
 import importlib
@@ -8,12 +8,12 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DeadlineTech import LOGGER, app, userbot
-from DeadlineTech.core.call import Anony
-from DeadlineTech.misc import sudo
-from DeadlineTech.plugins import ALL_MODULES
-from DeadlineTech.utils.database import get_banned_users, get_gbanned
-from DeadlineTech.utils.crash_reporter import setup_global_exception_handler  # ✅ Import crash handler
+from RiteshMusic import LOGGER, app, userbot
+from RiteshMusic.core.call import Anony
+from RiteshMusic.misc import sudo
+from RiteshMusic.plugins import ALL_MODULES
+from RiteshMusic.utils.database import get_banned_users, get_gbanned
+from RiteshMusic.utils.crash_reporter import setup_global_exception_handler  # ✅ Import crash handler
 from config import BANNED_USERS
 
 async def init():
@@ -73,12 +73,12 @@ async def init():
 
     
     for all_module in ALL_MODULES:
-        importlib.import_module("DeadlineTech.plugins" + all_module)
+        importlib.import_module("RiteshMusic.plugins" + all_module)
     LOGGER("DeadlineTech.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Anony.start()
     try:
-        await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Anony.stream_call("https://files.catbox.moe/g93qe8.jpg")
     except NoActiveGroupCall:
         LOGGER("DeadlineTech").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -88,12 +88,12 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("DeadlineTech").info(
-        "DeadlineTech Music Bot started successfully"
+        "RiteshMusic Music Bot started successfully"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DeadlineTech").info("Stopping DeadlineTech Music Bot...")
+    LOGGER("DeadlineTech").info("Stopping RiteshMusic Music Bot...")
 
 
 if __name__ == "__main__":
