@@ -1,3 +1,4 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 import time
 
@@ -5,12 +6,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from DeadlineTech import app
-from DeadlineTech.core.call import Anony
-from DeadlineTech.misc import db
-from DeadlineTech.utils.database import get_assistant, get_authuser_names, get_cmode
-from DeadlineTech.utils.decorators import ActualAdminCB, AdminActual, language
-from DeadlineTech.utils.formatters import alpha_to_int, get_readable_time
+from RiteshMusic import app
+from RiteshMusic.core.call import Anony
+from RiteshMusic.misc import db
+from RiteshMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from RiteshMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from RiteshMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
