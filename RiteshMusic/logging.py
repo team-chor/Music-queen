@@ -1,4 +1,4 @@
-# Powered By Team riteshcoder
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import logging
 
 logging.basicConfig(
