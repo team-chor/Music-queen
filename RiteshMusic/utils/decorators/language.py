@@ -1,9 +1,10 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import logging
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import get_lang, is_maintenance
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import get_lang, is_maintenance
 from config import SUPPORT_CHAT
 from strings import get_string
-from DeadlineTech import app
+from RiteshMusic import app
 
 # Setup logger
 logger = logging.getLogger(__name__)
