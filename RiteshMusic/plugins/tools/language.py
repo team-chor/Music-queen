@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from DeadlineTech import app
-from DeadlineTech.utils.database import get_lang, set_lang
-from DeadlineTech.utils.decorators import ActualAdminCB, language, languageCB
+from RiteshMusic import app
+from RiteshMusic.utils.database import get_lang, set_lang
+from RiteshMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
