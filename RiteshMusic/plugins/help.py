@@ -1,15 +1,15 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from typing import Union
 
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from DeadlineTech import app
-from DeadlineTech.utils import help_pannel
-from DeadlineTech.utils.database import get_lang
-from DeadlineTech.utils.decorators.language import LanguageStart, languageCB
-from DeadlineTech.utils.inline.help import help_back_markup, private_help_panel
+from RiteshMusic import app
+from RiteshMusic.utils import help_pannel
+from RiteshMusic.utils.database import get_lang
+from RiteshMusic.utils.decorators.language import LanguageStart, languageCB
+from RiteshMusic.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 
