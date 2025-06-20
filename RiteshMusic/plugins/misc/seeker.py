@@ -1,9 +1,9 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 import asyncio
 
-from DeadlineTech.misc import db
-from DeadlineTech.utils.database import get_active_chats, is_music_playing
+from RiteshMusic.misc import db
+from RiteshMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
