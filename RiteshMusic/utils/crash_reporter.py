@@ -1,10 +1,10 @@
-# Powered By DeadlineTech
+# ⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 import asyncio
 from traceback import format_exc
 from pyrogram.errors import RPCError
 
-from DeadlineTech import app
+from RiteshMusic import app
 from config import LOGGER_ID  # Logger group ID
 
 async def notify_logger_about_crash(error: Exception):
