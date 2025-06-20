@@ -1,14 +1,14 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 import asyncio
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DeadlineTech import YouTube, app
-from DeadlineTech.core.call import Anony
-from DeadlineTech.misc import SUDOERS, db
-from DeadlineTech.utils.database import (
+from RiteshMusic import YouTube, app
+from RiteshMusic.core.call import Anony
+from RiteshMusic.misc import SUDOERS, db
+from RiteshMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -19,11 +19,11 @@ from DeadlineTech.utils.database import (
     music_on,
     set_loop,
 )
-from DeadlineTech.utils.decorators.language import languageCB
-from DeadlineTech.utils.formatters import seconds_to_min
-from DeadlineTech.utils.inline import close_markup, stream_markup, stream_markup_timer
-from DeadlineTech.utils.stream.autoclear import auto_clean
-from DeadlineTech.utils.thumbnails import get_thumb
+from RiteshMusic.utils.decorators.language import languageCB
+from RiteshMusic.utils.formatters import seconds_to_min
+from RiteshMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from RiteshMusic.utils.stream.autoclear import auto_clean
+from RiteshMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
