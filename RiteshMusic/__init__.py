@@ -1,9 +1,9 @@
-# Powered By Team DeadlineTech
-from DeadlineTech.core.bot import Anony
-from DeadlineTech.core.dir import dirr
-from DeadlineTech.core.git import git
-from DeadlineTech.core.userbot import Userbot
-from DeadlineTech.misc import dbb, heroku
+# Powered By Team riteshcoder
+from RiteshMusic import Anony
+from RiteshMusic.core.dir import dirr
+from RiteshMusic.core.git import git
+from RiteshMusic.core.userbot import Userbot
+from RiteshMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
