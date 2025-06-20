@@ -1,3 +1,4 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import asyncio
 import os
 
@@ -6,12 +7,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from DeadlineTech import app
-from DeadlineTech.misc import db
-from DeadlineTech.utils import AnonyBin, get_channeplayCB, seconds_to_min
-from DeadlineTech.utils.database import get_cmode, is_active_chat, is_music_playing
-from DeadlineTech.utils.decorators.language import language, languageCB
-from DeadlineTech.utils.inline import queue_back_markup, queue_markup
+from RiteshMusic import app
+from RiteshMusic.misc import db
+from RiteshMusic.utils import AnonyBin, get_channeplayCB, seconds_to_min
+from RiteshMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from RiteshMusic.utils.decorators.language import language, languageCB
+from RiteshMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
