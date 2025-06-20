@@ -33,7 +33,7 @@ HELP_3 = """
 ③ Choose a display name for your clone.  
 ④ Pick a unique username (must end with <i>bot</i>).  
 ⑤ Once done, @BotFather will give you an <b>API token</b>.  
-⑥ Send this token to <b>@HarryxRobot</b> in PM using the format below:  
+⑥ Send this token to <b>@</b> in PM using the format below:  
    <code>/clone yourbottoken</code>  
    (❗ Do not include square brackets!)
 
