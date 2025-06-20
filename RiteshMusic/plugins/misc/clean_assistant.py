@@ -1,13 +1,14 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import get_client, is_active_chat
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import get_client, is_active_chat
 from config import LOGGER_ID
 from pyrogram.enums import ChatType
 
-from DeadlineTech.core.userbot import assistants
+from RiteshMusic.core.userbot import assistants
 
 
 async def clean_assistant_chats(client, assistant_num):
