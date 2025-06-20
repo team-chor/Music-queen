@@ -1,13 +1,13 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DeadlineTech import app
-from DeadlineTech.misc import SUDOERS
-from DeadlineTech.utils.database import add_gban_user, remove_gban_user
-from DeadlineTech.utils.decorators.language import language
-from DeadlineTech.utils.extraction import extract_user
+from RiteshMusic import app
+from RiteshMusic.misc import SUDOERS
+from RiteshMusic.utils.database import add_gban_user, remove_gban_user
+from RiteshMusic.utils.decorators.language import language
+from RiteshMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
