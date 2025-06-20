@@ -1,3 +1,4 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 FROM nikolaik/python-nodejs:python3.10-nodejs19
 
 RUN apt-get update \
