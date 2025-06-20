@@ -1,9 +1,10 @@
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 import time
 
 import psutil
 
-from DeadlineTech.misc import _boot_
-from DeadlineTech.utils.formatters import get_readable_time
+from RiteshMusic.misc import _boot_
+from RiteshMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
