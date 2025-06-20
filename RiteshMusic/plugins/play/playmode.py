@@ -1,4 +1,4 @@
-# Powered By Team DeadlineTech
+#⟶̽ जय श्री ༢།म >𝟑🙏🚩
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
