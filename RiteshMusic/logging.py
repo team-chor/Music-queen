@@ -1,4 +1,4 @@
-# Powered By Team DeadlineTech
+# Powered By Team riteshcoder
 import logging
 
 logging.basicConfig(
