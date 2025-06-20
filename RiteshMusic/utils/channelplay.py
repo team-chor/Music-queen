@@ -1,5 +1,5 @@
-from DeadlineTech import app
-from DeadlineTech.utils.database import get_cmode
+from RiteshMusic import app
+from RiteshMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
