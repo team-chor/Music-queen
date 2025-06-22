@@ -13,9 +13,12 @@ from RiteshMusic.core.call import Anony
 from RiteshMusic.misc import sudo
 from RiteshMusic.plugins import ALL_MODULES
 from RiteshMusic.utils.database import get_banned_users, get_gbanned
+from RiteshMusic.utils.crash_reporter import setup_global_exception_handler  # ✅ Import crash handler
 from config import BANNED_USERS
 
 async def init():
+    # ✅ Enable global crash handler
+    setup_global_exception_handler()
     
   
     if (
