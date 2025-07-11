@@ -15,7 +15,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url="https://github.com/riteshxcoder/RiteshMusic"
+                url="https://t.me/TEAM_CHOR"
             )
         ]
     ]
@@ -40,8 +40,8 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_7"], url=config.SUPPORT_CHANNEL)
         ],
         [
-            InlineKeyboardButton(text=_["S_B_6"], web_app=WebAppInfo(url="https://yourshivang.netlify.app")), 
-            InlineKeyboardButton(text=_["S_B_5"], url="https://github.com/riteshxcoder/RiteshMusic")
+            InlineKeyboardButton(text=_["S_B_6"], web_app=WebAppInfo(url="https://t.me/DCO_TEAM_1")), 
+            InlineKeyboardButton(text=_["S_B_5"], url="https://t.me/TEAM_CHOR")
         ]
     ]
     return buttons
